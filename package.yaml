@@ -4,14 +4,12 @@ info:
   name: HelloWorld 
   description: "A very simple python Hello World app"
   version: "0.6"
-  author-link: "http://www.cisco.com"
-  author-name: "Cisco Systems"
  
 app:
   type: paas
 
   resources:
-    profile: c1.small
+    profile: t2.micro
  
     network:
       - 
